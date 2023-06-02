@@ -67,6 +67,19 @@ public class Solution {
      */
 
     // E
+    /*
+        Suppose A is an input array of distinct integers,
+        i<j, and A[i] > A[j] (in other words, (A[i], A[j]) is an inversion in A).
+        Suppose X is an integer between A[i] and A[j], A[i] X A[j], there are 2 cases:
+            X < A[i]
+                Step 1: A[i] and X will swap places with each other, resulting in X A[i] A[j]
+                Step 2: A[i] and A[j] will swap places with each other
+            X > A[i]
+                Step 1: X and A[j] will swap places with each other, resulting in A[i] A[j] X
+                Step 2: A[i] and A[j] will swap places with each other
+        In conclusion, at some point, bubble sort will perform a comparison of A[i] and A[j] and then will swap A[i], A[j]
+        Hence, bubble sort is an inversion-bound sorting algorithm.
+     */
 
     // Problem 6
     public int[] sort(int[] arr) {
