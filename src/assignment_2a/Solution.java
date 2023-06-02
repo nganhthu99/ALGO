@@ -8,9 +8,9 @@ public class Solution {
     // Problem 1
     // A
     /*
-        sum ← 0 // 1
-        for i ← 0 to n-1 do // n + 1 + 1 = n + 2
-            sum ← sum + 1 // 2 * n = 2n
+        sum <- 0 // 1
+        for i <- 0 to n-1 do // n + 1 + 1 = n + 2
+            sum <- sum + 1 // 2 * n = 2n
             increment i // 2 * n = 2n
 
         // primitive operations: 1 + n + 2 + 2n + 2n = 5n + 3
@@ -19,10 +19,10 @@ public class Solution {
     // Problem 1
     // B
     /*
-        sum ← 0 // 1
-        for i ← 0 to n-1 do // n + 1 + 1 = n + 2
-            for j ← 0 to n-1 do // n * (n + 2) = n^2 + 2n
-                sum ← sum + 1  // 2 * n * n = 2n^2
+        sum <- 0 // 1
+        for i <- 0 to n-1 do // n + 1 + 1 = n + 2
+            for j <- 0 to n-1 do // n * (n + 2) = n^2 + 2n
+                sum <- sum + 1  // 2 * n * n = 2n^2
                 increment j // 2 * n * n = 2n^2
             increment i // 2 * n = 2n
 
