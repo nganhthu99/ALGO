@@ -48,6 +48,20 @@ public class Solution {
         }
         return arr;
     }
+    public int[] bubbleSort3(int[] arr) {
+        int len = arr.length;
+        boolean isSortedInPrevRun = true;
+        while (isSortedInPrevRun) {
+            isSortedInPrevRun = false;
+            for (int i = 0; i < len; ++i) {
+                if (arr[i] > arr[i + 1]) {
+                    swap(arr, i, i + 1);
+                    isSortedInPrevRun = true;
+                }
+            }
+        }
+        return arr;
+    }
     private void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
@@ -80,6 +94,8 @@ public class Solution {
         In conclusion, at some point, bubble sort will perform a comparison of A[i] and A[j] and then will swap A[i], A[j]
         Hence, bubble sort is an inversion-bound sorting algorithm.
      */
+    // inversion-bound algorithm will produce at least as many comparisons as many inversions in the input array
+    // not inversion-bound algorithm, they perform fewer comparisons than the inversions
 
     // Problem 6
     public int[] sort(int[] arr) {
