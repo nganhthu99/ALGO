@@ -59,4 +59,7 @@ public class Solution {
             arr[index++] = l2[j++];
         }
     }
+    /*
+    Running time:O(nlogn)
+     */
 }
