@@ -74,6 +74,22 @@ public class Solution {
         return buildList(root.right, leftList);
     }
 
+//    private List<Integer> buildList(TreeNode root) {
+//        if (root == null) return Collections.emptyList();
+//        List<Integer> list = new ArrayList<>();
+//
+//        List<Integer> leftList = buildList(root.left);
+//        list.addAll(leftList);
+//
+//        list.add(root.val);
+//
+//        List<Integer> rightList = buildList(root.right);
+//        list.addAll(rightList);
+//
+//        return list;
+//    }
+
+
     // Problem 6
     public List<Set<Integer>> subsetOfSize(List<Integer> list, int size) {
         List<Set<Integer>> listOfSet = new ArrayList<>();

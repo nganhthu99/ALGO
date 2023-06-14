@@ -1,4 +1,4 @@
-package assignment_5.code;
+package assignment_5.sample;
 
 import java.util.ArrayList;
 import java.util.List;

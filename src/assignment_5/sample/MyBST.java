@@ -1,4 +1,4 @@
-package assignment_5.code;
+package assignment_5.sample;
 
 /**
  * This is a BST that handles Integer data. The insert method has been

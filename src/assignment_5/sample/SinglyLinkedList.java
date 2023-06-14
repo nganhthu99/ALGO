@@ -1,4 +1,4 @@
-package assignment_5.code;
+package assignment_5.sample;
 
 public class SinglyLinkedList {
 		private Node head;  //zeroth element

@@ -1,8 +1,8 @@
-package assignment_5.code;
+package assignment_5.sample;
 import java.util.*;
 
 /**
- * This code demonstrates computation of power set
+ * This sample demonstrates computation of power set
  * using recursion with backtracking.
  * 
  * The computePowerSet method in BinaryTreeSet (in this package)

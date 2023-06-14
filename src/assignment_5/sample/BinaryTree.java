@@ -1,4 +1,4 @@
-package assignment_5.code;
+package assignment_5.sample;
 
 import java.util.*;
 
@@ -253,7 +253,7 @@ public class BinaryTree {
     /**
      * Specialized nested class to produce
      * a visual image of this tree. This is
-     * third-party code. To access the functionality
+     * third-party sample. To access the functionality
      * of this class, make a call to the static method
      * printNode like this:  printNode(root)
      *
